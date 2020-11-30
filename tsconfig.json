@@ -1,0 +1,34 @@
+{
+    "exclude": ["**/*.js", "**/*.test.ts"],
+    "compilerOptions": {
+      "allowJs": false,
+      "declaration": true,
+      "module": "commonjs",
+      "outDir": "./out",
+      "rootDir": "./src",
+  
+      "moduleResolution": "node",
+      "target": "esnext",
+  
+      "strict": true,
+      "alwaysStrict": true,
+      "strictFunctionTypes": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+  
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+  
+      "downlevelIteration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "pretty": true,
+      "preserveConstEnums": true,
+      "removeComments": false
+    }
+  }
