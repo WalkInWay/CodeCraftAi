@@ -1,14 +1,14 @@
 {
-    "exclude": ["**/*.js", "**/*.test.ts"],
+    "exclude": ["**/*.js"],
     "compilerOptions": {
       "allowJs": false,
-      "declaration": true,
+      "declaration": false,
       "module": "commonjs",
       "outDir": "./out",
       "rootDir": "./src",
   
       "moduleResolution": "node",
-      "target": "esnext",
+      "target": "es6",
   
       "strict": true,
       "alwaysStrict": true,
@@ -29,6 +29,6 @@
       "experimentalDecorators": true,
       "pretty": true,
       "preserveConstEnums": true,
-      "removeComments": false
+      "removeComments": true
     }
   }
